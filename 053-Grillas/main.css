@@ -1,3 +1,7 @@
+body {
+
+}
+
 .grid{
     display: grid;
     grid-template-areas: "header header"
@@ -5,14 +9,15 @@
                          "footer footer";
     grid-template-rows: 150px 1fr 100px;
     grid-template-columns: 1fr 200px;
+    justify-items: stretch;
+    align-items: stretch;
+}
 
-}
-body {
-    background-color: #eee;
-}
-.red{
+.red {
     background-color: tomato;
 }
-.blue{
-    background-color: cadetblue;
+
+.item-1{
+    justify-self: stretch;
+    align-self: center;
 }
