@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background-color: rgba(218, 200, 131, 0.25);
     width: 200px;
 }
 .flex{
@@ -7,4 +7,9 @@ body{
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     flex-flow: row wrap; /* Direccion mas si embuelve o no el contenido*/
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.red{
+    background-color: tomato;
 }
