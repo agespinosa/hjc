@@ -3,17 +3,19 @@ body{
     width: 400px;
 }
 .flex{
+    background-color: lightblue;
+    height: 150px;
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     flex-flow: row wrap; /* Direccion mas si embuelve o no el contenido*/
-    height: 200px;
 
 }
 .primero{ 
     /* flex-grow: 1;
     flex-basis: 120px; */
-    flex: 1 120px;
+    flex: 1 80px;
+    align-self: center;
 } 
 .tercero{
     flex-grow: 2;
